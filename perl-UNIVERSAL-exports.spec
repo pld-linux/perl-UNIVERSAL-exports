@@ -14,7 +14,7 @@ License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 %if %{!?_without_tests:1}0
 BuildRequires:	perl-Exporter-Lite >= 0.01
 %endif
