@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	UNIVERSAL
-%define	pnam	exports
+%define		pdir	UNIVERSAL
+%define		pnam	exports
 Summary:	UNIVERSAL::exports - lightweight, universal exporting of variables
 Summary(pl):	UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
 Name:		perl-UNIVERSAL-exports
