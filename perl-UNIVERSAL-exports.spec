@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	UNIVERSAL
 %define	pnam	exports
-Summary:	UNIVERSAL::exports - Lightweight, universal exporting of variables
+Summary:	UNIVERSAL::exports - lightweight, universal exporting of variables
 Summary(pl):	UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
 Name:		perl-UNIVERSAL-exports
 Version:	0.03
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is an alternative to Exporter intended to provide a universal,
-lightweight subset of its functionality.  It uses Exporter::Lite, so
+lightweight subset of its functionality. It uses Exporter::Lite, so
 look there for details.
 
 %description -l pl
