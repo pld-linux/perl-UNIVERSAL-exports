@@ -9,7 +9,7 @@ Summary:	UNIVERSAL::exports - lightweight, universal exporting of variables
 Summary(pl):	UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
 Name:		perl-UNIVERSAL-exports
 Version:	0.03
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
