@@ -35,8 +35,7 @@ Exporter::Lite, z którego mo¿na poznaæ wiêcej szczegó³ów.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -53,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/%{pdir}/*.pm
+%{perl_sitelib}/%{pdir}/*.pm
 %{_mandir}/man3/*
