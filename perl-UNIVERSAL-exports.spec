@@ -22,6 +22,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This is an alternative to Exporter intended to provide a universal,
+lightweight subset of its functionality.  It uses Exporter::Lite, so
+look there for details.
 
 # %description -l pl
 # TODO
