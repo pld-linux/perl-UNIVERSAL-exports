@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	UNIVERSAL
 %define	pnam	exports
@@ -10,7 +10,7 @@ Summary(pl):	UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
 Name:		perl-UNIVERSAL-exports
 Version:	0.03
 Release:	1
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7672d8e740d99c3af612205e6fde8644
