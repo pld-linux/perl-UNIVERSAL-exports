@@ -6,7 +6,7 @@
 %define		pdir	UNIVERSAL
 %define		pnam	exports
 Summary:	UNIVERSAL::exports - lightweight, universal exporting of variables
-Summary(pl.UTF-8):   UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
+Summary(pl.UTF-8):	UNIVERSAL::exports - lekkie, uniwersalne eksportowanie zmiennych
 Name:		perl-UNIVERSAL-exports
 Version:	0.05
 Release:	1
